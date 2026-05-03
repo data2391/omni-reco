@@ -12,7 +12,7 @@ Le système calcule un **Score Fusionné** basé sur trois piliers :
 ## 🛠️ Installation (Zero-Config)
 Le système est verrouillé pour garantir la stabilité. L'installateur déploie automatiquement un environnement isolé **Python 3.10** pour éviter les conflits d'API avec les versions récentes de MediaPipe (≥ 0.10.14).
 ```bash
-git clone https://github.com/ton-username/OMNI-RECO-v2.git
+git clone https://github.com/data2391/omni-reco.git
 cd OMNI-RECO-v2
 setup.bat
 
