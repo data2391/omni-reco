@@ -41,6 +41,7 @@ Ce projet fait partie de l'écosystème **data2391** et accompagne l'ouvrage :
 # Pourquoi OMNI-RECO est différent des autres outils de Face-Match ?
 
 La plupart des outils (Dlib, InsightFace seul) échouent dès qu'un visage est partiellement masqué ou de profil. OMNI-RECO utilise une Triple Fusion Biométrique + Oreilles :
+
 	- Deep Learning (ArcFace 512D) : identité globale via embedding cosinus
 	
 	- Géométrie 3D (MediaPipe custom) : analyse de la structure osseuse via 18 ratios mathématiques — fonctionne même si le bas du visage est caché
