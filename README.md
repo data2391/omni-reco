@@ -28,7 +28,7 @@ python compare.py cible.jpg suspect.png --verbose
 > **[RESULT]** ✅ **MATCH FOUND (85.1%)** > *Détail : Identité confirmée via structure osseuse malgré occlusion nasale.*
 > 
 ## 🛡️ Pourquoi cette version ?
-Cette version FINAL_9FIXES résout les problèmes critiques rencontrés par la communauté :
+Cette version résout les problèmes critiques rencontrés par la communauté :
  * **Fix API MediaPipe** : Rétablissement de solutions.face_mesh via versioning 0.10.9.
  * **Yaw Correction** : Gestion dynamique des poids (A/G/T) pour les profils extrêmes (jusqu'à -175°).
  * **Sharpening Pipeline** : Prétraitement CLAHE et Denoising NlMeans intégré pour les photos de basse qualité.
